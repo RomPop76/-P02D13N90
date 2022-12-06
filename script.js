@@ -1,17 +1,17 @@
 
-const burger = document.querySelector(".burger");
-const activeElement = document.querySelectorAll(".active");
+// const burger = document.querySelector(".burger");
+// const activeElement = document.querySelectorAll(".active");
 
-burger.addEventListener("click", function () {
-    for (let i = 0; i < activeElement.length; i++) {
-        activeElement[i].classList.toggle("show")
-    }
-})
-
-
-// $(".burger").on("click", function () {
-//     $(".fas, aside, .wrapper").toggleClass("show");
+// burger.addEventListener("click", function () {
+//     for (let i = 0; i < activeElement.length; i++) {
+//         activeElement[i].classList.toggle("show")
+//     }
 // })
+
+
+$(".burger").on("click", function () {
+    $(".fas, aside, .wrapper").toggleClass("show");
+})
 
 
 // const burger = document.querySelector(".burger");
